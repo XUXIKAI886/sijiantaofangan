@@ -118,7 +118,15 @@ class BrandAnalysisApp {
             // 收集表单数据
             this.storeData = this.formHandler.collectFormData();
             console.log('收集到的店铺数据:', this.storeData);
-            
+
+            // 保存店铺数据到localStorage供报告渲染器使用
+            try {
+                localStorage.setItem('brandAnalysisStoreData', JSON.stringify(this.storeData));
+                console.log('[品牌分析] 店铺数据已保存到localStorage');
+            } catch (error) {
+                console.error('[品牌分析] 保存店铺数据到localStorage失败:', error);
+            }
+
             // 显示加载状态
             this.showLoading();
             
