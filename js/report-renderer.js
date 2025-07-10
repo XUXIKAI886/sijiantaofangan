@@ -72,19 +72,19 @@ class ReportRenderer {
                 box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
             ">
                 <h1 class="brand-report-title" style="
-                    font-size: 2.8rem;
-                    font-weight: 800;
-                    margin: 0 0 0.5rem 0;
-                    color: white;
-                    letter-spacing: 0.5px;
-                    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                    font-size: 2.8rem !important;
+                    font-weight: 800 !important;
+                    margin: 0 0 0.5rem 0 !important;
+                    color: white !important;
+                    letter-spacing: 0.5px !important;
+                    text-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
                 ">${storeData.storeName ? `${storeData.storeName} 品牌定位分析报告` : '品牌定位分析报告'}</h1>
                 <p class="brand-report-subtitle" style="
-                    font-size: 1.3rem;
-                    margin: 0;
-                    color: white;
-                    font-weight: 500;
-                    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+                    font-size: 1.3rem !important;
+                    margin: 0 !important;
+                    color: white !important;
+                    font-weight: 500 !important;
+                    text-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
                 ">${storeData.category || storeData.location || '呈尚策划运营部专业分析'}</p>
             </div>
         `;
@@ -331,19 +331,19 @@ class ReportRenderer {
                     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
                 ">
                     <h1 class="brand-report-title" style="
-                        font-size: 2.8rem;
-                        font-weight: 800;
-                        margin: 0 0 0.5rem 0;
-                        color: white;
-                        letter-spacing: 0.5px;
-                        text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+                        font-size: 2.8rem !important;
+                        font-weight: 800 !important;
+                        margin: 0 0 0.5rem 0 !important;
+                        color: white !important;
+                        letter-spacing: 0.5px !important;
+                        text-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
                     ">${storeData?.storeName ? `${storeData.storeName} 品牌定位分析报告` : '品牌定位分析报告'}</h1>
                     <p class="brand-report-subtitle" style="
-                        font-size: 1.3rem;
-                        margin: 0;
-                        color: white;
-                        font-weight: 500;
-                        text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+                        font-size: 1.3rem !important;
+                        margin: 0 !important;
+                        color: white !important;
+                        font-weight: 500 !important;
+                        text-shadow: 0 1px 2px rgba(0,0,0,0.15) !important;
                     ">${storeData?.category || '呈尚策划运营部专业分析'}</p>
                 </div>
 
